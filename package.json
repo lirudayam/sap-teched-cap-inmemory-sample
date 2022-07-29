@@ -19,13 +19,16 @@
       "db": {
         "kind": "sqlite",
         "credentials": {
-          "database": "sqlite.db"
+          "database": ":memory:"
         }
       },
       "auth": {
         "kind": "dummy-auth",
         "restrict_all_services": false
       }
+    },
+    "features": {
+      "in_memory_db": true
     }
   },
   "eslintConfig": {
