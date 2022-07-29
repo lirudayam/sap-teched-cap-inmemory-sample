@@ -1,0 +1,2 @@
+cds build
+cf push

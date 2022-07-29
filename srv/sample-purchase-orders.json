@@ -1,0 +1,52 @@
+[
+    {
+        "PurchaseOrderID" : 1,
+        "CurrencyCode"    : "EUR",
+        "GrossAmount"     : 865.13,
+        "NetAmount"       : 727.00,
+        "SupplierID"      : 2,
+        "TaxAmount"       : 138.13,
+        "Items"           : [
+            {
+                "ItemNumber"      : 1,
+                "CurrencyCode"    : "EUR",
+                "GrossAmount"     : 865.13,
+                "NetAmount"       : 727.00,
+                "ProductID"       : 1,
+                "Quantity"        : 10,
+                "QuantityUnit"    : "PCT",
+                "TaxAmount"       : 138.13
+            }
+        ]
+    },
+    {
+        "PurchaseOrderID" : 2,
+        "CurrencyCode"    : "EUR",
+        "GrossAmount"     : 8676.65,
+        "NetAmount"       : 7291.30,
+        "SupplierID"      : 2,
+        "TaxAmount"       : 1385.35,
+        "Items"           : [
+            {
+                "ItemNumber"      : 1,
+                "CurrencyCode"    : "EUR",
+                "GrossAmount"     : 8650.13,
+                "NetAmount"       : 7270.00,
+                "ProductID"       : 1,
+                "Quantity"        : 100,
+                "QuantityUnit"    : "PCT",
+                "TaxAmount"       : 1380.13
+            },
+            {
+                "ItemNumber"      : 2,
+                "CurrencyCode"    : "EUR",
+                "GrossAmount"     : 25.35,
+                "NetAmount"       : 21.30,
+                "ProductID"       : 3,
+                "Quantity"        : 30,
+                "QuantityUnit"    : "g",
+                "TaxAmount"       : 4.05
+            }
+        ]
+    }
+]

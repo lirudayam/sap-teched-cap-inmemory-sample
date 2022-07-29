@@ -1,0 +1,4 @@
+ProductID;CategoryName;CurrencyCode;DimensionDepth;DimensionHeight;DimensionWidth;DimensionUnit;LongDescription;Name;Price;QuantityUnit;ShortDescription;SupplierID;Weight;WeightUnit;
+1;Brake Disc;EUR;20;50;50;cm;Torx Screw with Brake Disc M12X1\, 5X43 ZNS3;Torx Screw with Brake Disc;7.27;PCT;Torx Screw with Brake Disc;2;40;kg;
+2;Brake Pad Sensor;EUR;2;3;3;cm;Brake Pad Sensor;Brake Pad Sensor Front Left;29.84;PCT;Brake Pad Sensor Front Left;3;50;g;
+3;Brake Pad Paste;EUR;;;;;Brake Pad Paste;Brake Pad Paste;2.13;g;Brake Pad Paste;2;3;g;
