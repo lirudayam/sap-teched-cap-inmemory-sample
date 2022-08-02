@@ -8,7 +8,8 @@ applications:
 # Backend Service
 # -----------------------------------------------------------------------------------
 - name: sap-teched-cap-inmemory-sample-srv
-  random-route: true  # for development only
+  routes: 
+    - route: sap-teched-cap-inmemory-sample-srv.cfapps.eu10.hana.ondemand.com
   path: gen/srv
   memory: 256M
   buildpack: nodejs_buildpack

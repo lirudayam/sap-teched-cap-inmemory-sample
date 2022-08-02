@@ -1,7 +1,0 @@
-CustomerID;City;Country;DateOfBirth;EmailAddress;Gender;FirstName;HouseNumber;LastName;PhoneNumber;PostalCode;Street;
-1;Munich;Germany;1980-01-01;taner.ruecker@giga4u.de;0;Taner;1;Ruecker;+494957172888362;80331;Theresienwiese;
-2;Zurich;Switzerland;1985-06-01;judith.boehme@bluewin.ch;1;Judith;2;Boehme;+41524031199;8001;Museumstrasse;
-3;Vaduz;Liechtenstein;1987-08-05;yaman.murazik@gmx.li;2;Yaman;3;Murazik;+4232634399;9490;Fürst-Franz-Josef-Strasse;
-4;Vienna;Austria;1990-12-12;matthias.emmerich@gmx.at;0;Matthias;4;Emmerich;+4362430382764;1010;Floßgasse;
-5;Cologne;Germany;1991-09-03;aymen.ackermann@hotmail.de;2;Aymen;5;Ackermann;+4932884924770;50667;Konrad-Adenauer-Ufer;
-6;Hamburg;Germany;1994-10-10;avelina.hinz@info-media.de;1;Avelina;6;Hinz;+4996725460496165;20095;Große Elbstraße;

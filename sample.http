@@ -2,22 +2,7 @@
 @hostURL = http://localhost:4004
 
 ### Get OData Metadata
-GET {{hostURL}}/main/$metadata
-
-### Populate Purchase Order Data
-POST {{hostURL}}/main/GenerateSamplePurchaseOrders
-Content-Type: application/json
+GET {{hostURL}}/service/ESPM/$metadata
 
 ### Get Purchase Order Data
-GET {{hostURL}}/main/PurchaseOrderHeader?$expand=Items,Supplier
-
-### Populate Sales Order Data
-POST {{hostURL}}/main/GenerateSampleSalesOrders
-Content-Type: application/json
-
-### Get Sales Order Data
-GET {{hostURL}}/main/SalesOrderHeader?$expand=Items,Customer
-
-### Truncate Sales and Purchase Order Data
-POST {{hostURL}}/main/ResetSampleData
-Content-Type: application/json
+GET {{hostURL}}/service/ESPM/PurchaseOrderHeaders?$expand=SupplierDetails,Items

@@ -16,6 +16,7 @@ Prerequisities:
 1. Make sure you have the cf cli installed (locally or via BAS)
 2. Make sure you are logged in to CF via cf login or other UI-based login
 3. Make sure you point to a CF space, you have access to
+4. Update the manifest.yml to show to the correct cloud foundry landscape, e.g. eu10 or us10
 
 Actions:
 1. Run the shell script deploy.sh
@@ -23,11 +24,4 @@ Actions:
 
 ## OData Service
 
-The out-of-the-box solution comes with a prefill of following entities:
-- Product (incl. category and text)
-- Business Partner (Supplier and Customer)
-
-You can run a post request to create sample purchase and sales order data dervied from the JSON-file within the srv module.
-Execute a POST-request e.g. to http://localhost:4004/main/GenerateSamplePurchaseOrders
-
-For more sophisticated options you have a sample.http file
+For some sample you have a sample.http file
