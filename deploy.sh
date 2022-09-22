@@ -1,4 +1,2 @@
-sed -i '' 's/sqlite.db/\:memory\:/g' package.json
-cds build
-cp -r db/data gen/srv/srv/data
-cf push
+mbt build
+cf deploy mta_archives/sap-teched-cap-inmemory-sample_1.0.0.mtar

@@ -8,7 +8,7 @@
   "dependencies": {
     "@sap/cds": "^6",
     "express": "^4",
-    "sqlite3": "^5.0.2"
+    "@sap/hana-client": "^2.13.22"
   },
   "devDependencies": {},
   "scripts": {
@@ -17,10 +17,7 @@
   "cds": {
     "requires": {
       "db": {
-        "kind": "sqlite",
-        "credentials": {
-          "database": ":memory:"
-        }
+        "kind": "hana"
       },
       "auth": {
         "kind": "dummy-auth",
